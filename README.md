@@ -128,7 +128,7 @@ you are asked a series of questions that will help you profile and understand th
 
 <p><a>Answer:</a></p>
 
-<!-- <table>
+<table>
   <thead>
     <tr><th>City</th><th>All reviews by city</th></tr>
   </thead>
@@ -159,13 +159,7 @@ you are asked a series of questions that will help you profile and understand th
     <tr><td>Lakewood</td><td>1465</td></tr>
     <tr><td>Goodyear</td><td>1155</td></tr>
   </tbody>
-</table> -->
-
-<table style="border-collapse:collapse;border-color:#aabcfe;border-spacing:0;border:none" class="tg"><thead><tr><th style="background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">City</th><th style="background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">All reviews by city</th></tr></thead><tbody><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Las Vegas</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">82854</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Phoenix</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">34503</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Toronto</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">24113</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Scottsdale</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">20614</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Charlotte</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">12523</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Henderson</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">10871</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Tempe</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">10504</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Pittsburgh</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">9798</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Montréal</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">9448</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Chandler</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">8112</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Mesa</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">6875</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Gilbert</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">6380</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Cleveland</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">5593</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Madison</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">5265</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Glendale</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">4406</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Mississauga</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">3814</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Edinburgh</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">2792</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Peoria</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">2624</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">North Las Vegas</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">2438</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Markham</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">2352</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Champaign</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">2029</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Stuttgart</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">1849</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Surprise</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">1520</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Lakewood</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">1465</td></tr><tr><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">Goodyear</td><td style="background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:0px 10px;text-align:left;vertical-align:top;word-break:normal">1155</td></tr></tbody></table>
-
-
-
-
+</table>
 
 ```diff
 -- Code Used --
@@ -177,17 +171,62 @@ you are asked a series of questions that will help you profile and understand th
 ```
 
 <!-- Parte 6 -->
-<h4 style="color:#0080c0"></h4>
+<h4 style="color:#0080c0">6. Find the distribution of star ratings to the business in the following cities:</h4>
+
+<p><a>Avon:</a></p>
 
 <p><a>Answer:</a></p>
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
+.tg td{background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Star rating</th>
+    <th class="tg-0pky">count</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">1.5<br>2.5<br>3.5<br>4.0<br>4.5<br>5.0</td>
+    <td class="tg-0pky">10<br>6<br>88<br>21<br>31<br>3<br></td>
+  </tr>
+</tbody>
+
+```diff
+-- Code Used --
++ SELECT stars AS "Star rating"
++      ,sum(review_count) AS "count"
++ FROM business
++ WHERE city == "Avon"
++ GROUP BY stars
+```
 
 
-<ul style= "list-style-type: upper-roman;">
-<li></li>
-<p></p>
+
+6. 
+
+i. Avon
+
+	SQL code used to arrive at answer:
 
 
-</ul>
+
+
+
+
+
+
+
+
+
+
+
 
 ```diff
 -- Code Used --
