@@ -27,16 +27,15 @@ you are asked a series of questions that will help you profile and understand th
 
 <p><a>Answer:</a> The dataset have 11 tables with 10.000 rows every each.</p>
 
-<p style="color:#0080c0">SQL code used to arrive at answer:</p>
-
 ```diff
+-- Code Used --
 + SELECT COUNT(*) 
 + FROM "name of the table"
 ```
 
 <h4 style="color:#0080c0">2. Find the total distinct records by either the foreign key or primary key for each table. If two foreign keys are listed in the table, please specify which foreign key:</h4>
 
-<p><a>Answer:</a>
+<p><a>Answer:</a></p>
 
 
 <ul style= "list-style-type: upper-roman;">
@@ -54,19 +53,17 @@ you are asked a series of questions that will help you profile and understand th
 </ul>
 
 
-<p style="color:#0080c0">SQL code used to arrive at answer:</p>
+
 
 ```diff
+-- Code Used --
 + SELECT count(DISTINCT /*Primary or Foreign Key*/)
 + FROM -- Table
 ```
 
 <h4 style="color:#0080c0">3. Are there any columns with null values in the Users table? Indicate "yes," or "no."</h4>
 
-<p><a>Answer: NO</a>
-
-<p style="color:#0080c0">SQL code used to arrive at answer:</p>
-
+<p><a>Answer: NO</a></p>
 
 ```diff
 -- Code Used --
@@ -93,6 +90,111 @@ you are asked a series of questions that will help you profile and understand th
 +      OR compliment_writer IS NULL
 +      OR compliment_photos IS NUL
 ```
+<!-- Parte 4 -->
+<h4 style="color:#0080c0">4. For each table and column listed below, display the smallest (minimum), largest (maximum), and average (mean) value for the following fields:
+</h4>
+
+<p><a>Answer:</a></p>
+
+
+<ul style= "list-style-type: upper-roman;">
+<li>Table: Review, Column: Stars</li>
+<p>min:	1.0	max:	5.0	avg:	3.7082</p>
+
+<li>Table: Business, Column: Stars</li>
+<p>min:	1.0	max:	5.0	avg:	3.6549</p>
+
+<li>Table: Tip, Column: Likes</li>
+<p>min:	0	max:	2	avg:	0.0144</p>
+
+<li>Table: Checkin, Column: Count</li>
+<p>min:	1	max:	53	avg:	1.9414</p>
+
+<li>Table: User, Column: Review_count</li>
+<p>min:	0	max:	2000	avg:	24.2995</p>
+</ul>
+
+```diff
+-- Code Used --
++SELECT MIN(/*Name of the column*/) AS "MIN"
++      ,MAX(/*Name of the column*/) AS "MAX"
++      ,AVG(/*Name of the column*/) AS "AVG"
++FROM /*Name of the Table*/
+```
+
+
+<!-- Parte 5 -->
+<h4 style="color:#0080c0">List the cities with the most reviews in descending order:</h4>
+
+<p><a>Answer:</a></p>
+
+<table>
+  <thead>
+    <tr><th>City</th><th>All reviews by city</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>Las Vegas</td><td>82854</td></tr>
+    <tr><td>Phoenix</td><td>34503</td></tr>
+    <tr><td>Toronto</td><td>24113</td></tr
+    ><tr><td>Scottsdale</td><td>20614</td></tr>
+    <tr><td>Charlotte</td><td>12523</td></tr>
+    <tr><td>Henderson</td><td>10871</td></tr>
+    <tr><td>Tempe</td><td>10504</td></tr>
+    <tr><td>Pittsburgh</td><td>9798</td></tr>
+    <tr><td>Montréal</td><td>9448</td></tr>
+    <tr><td>Chandler</td><td>8112</td></tr>
+    <tr><td>Mesa</td><td>6875</td></tr>
+    <tr><td>Gilbert</td><td>6380</td></tr>
+    <tr><td>Cleveland</td><td>5593</td></tr>
+    <tr><td>Madison</td><td>5265</td></tr>
+    <tr><td>Glendale</td><td>4406</td></tr>
+    <tr><td>Mississauga</td><td>3814</td></tr>
+    <tr><td>Edinburgh</td><td>2792</td></tr>
+    <tr><td>Peoria</td><td>2624</td></tr>
+    <tr><td>North Las Vegas</td><td>2438</td></tr>
+    <tr><td>Markham</td><td>2352</td></tr>
+    <tr><td>Champaign</td><td>2029</td></tr>
+    <tr><td>Stuttgart</td><td>1849</td></tr>
+    <tr><td>Surprise</td><td>1520</td></tr>
+    <tr><td>Lakewood</td><td>1465</td></tr>
+    <tr><td>Goodyear</td><td>1155</td></tr>
+  </tbody>
+</table>
+
+```diff
+-- Code Used --
++ SELECT city
++      ,SUM(review_count) AS all_reviews_by_city
++ FROM business
++ GROUP BY city
++ ORDER BY all_reviews_by_city DESC
+```
+
+<!-- Parte 6 -->
+<h4 style="color:#0080c0"></h4>
+
+<p><a>Answer:</a></p>
+
+
+<ul style= "list-style-type: upper-roman;">
+<li></li>
+<p></p>
+
+
+</ul>
+
+```diff
+-- Code Used --
++ SELECT city
++      ,SUM(review_count) AS all_reviews_by_city
++ FROM business
++ GROUP BY city
++ ORDER BY all_reviews_by_city DESC
+```
+
+
+
+
 
 # Part 2
 
