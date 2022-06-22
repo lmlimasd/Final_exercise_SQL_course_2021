@@ -197,6 +197,7 @@ you are asked a series of questions that will help you profile and understand th
     <td class="tg-0pky">10<br>6<br>88<br>21<br>31<br>3<br></td>
   </tr>
 </tbody>
+</table>
 
 ```diff
 -- Code Used --
