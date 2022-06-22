@@ -9,7 +9,7 @@
 The entity relationship (ER) diagram below, should help familiarize you with the design of the Yelp Dataset provided for this peer review activity.
 
 <p><img src="ER_diagram.png"
-     alt="Markdown Monster icon" />
+     alt="Markdown Monster icon"   style= "max-width: 80%; height auto;" />
 </p>
 
 <h2 style="color:#0080c0">First Part</h2>
