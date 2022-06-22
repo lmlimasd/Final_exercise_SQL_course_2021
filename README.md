@@ -2,6 +2,12 @@
 ### SQL for Data Science - Coursera 2021 - University of California, Davis 
 <p>As the final exercise in the course SQL for Data Science. This assignment is designed to test the knowledge of a wide range of concepts and SQL design techniques discussed throughout the course. Using a dataset from a US-based organization called <a href="https://www.yelp.com/dataset" target="blank">Yelp Open Dataset</a> , which provides a platform for users to provide reviews and rate their interactions with a variety of organizations – businesses, restaurants, health clubs, hospitals, local governmental offices, charitable organizations, etc. Yelp has made a portion of this data available for personal, educational, and academic purposes. Check out the Yelp Dataset ER Diagram and instructions below for more detailed information on the dataset and how was completed the assignment.</p>
 
+<p><a>Note: </a> For most information about the Dataset visit:</p>
+
+<ul>
+<li> <a href="https://www.yelp.com/dataset" target="blank">Yelp Dataset</a> </li>
+<li> <a href="https://github.com/Yelp/dataset-examples" target="blank">Repository Yelp's Academic Dataset Examples</a></li>
+</ul>
 
 
 ## Yelp Dataset ER Diagram
@@ -128,33 +134,50 @@ you are asked a series of questions that will help you profile and understand th
 
 <p><a>Answer:</a></p>
 
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
-.tg td{background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
 <table class="tg">
-<thead>
-  <tr>
-    <th class="tg-0pky">Star rating</th>
-    <th class="tg-0pky">count</th>
-  </tr>
-</thead>
-<tbody>
-  <tr>
-    <td class="tg-0pky">Las Vegas<br>Phoenix<br>Toronto<br>Scottsdale<br>Charlotte<br>Henderson<br>Tempe<br>Pittsburgh<br>Montréal<br>Chandler <br>Mesa<br>Gilgert<br>Cleveland<br>Madison<br>Glendale<br>Mississauga<br>Edinburgh<br>Peoria<br>North Las Vegas<br>Markham<br>Champaign<br>Stuttgart<br>Surprise<br>Lakewood<br>Goodyear<br><br></td>
-    <td class="tg-0pky">82854<br>34503<br>24113<br>20614<br>12523<br>10871<br>10504<br>9798<br>9448<br>8112<br>6875<br>6380<br>5593<br>5265<br>4406<br>3814<br>2792<br>2624<br>2438<br>2352<br>2029<br>1849<br>1520<br>1465<br>1155</td>
-  </tr>
-</tbody>
+  <thead>
+      <tr>
+          <th >City</th>
+          <th >All_reviews_by_city </th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+        <td>Las Vegas
+          <br>Phoenix
+          <br>Toronto
+          <br>Scottsdale
+          <br>Charlotte
+          <br>Henderson
+          <br>Tempe
+          <br>Pittsburgh
+          <br>Montréal
+          <br>Chandler 
+          <br>Mesa
+          <br>Gilgert
+          <br>Cleveland
+          <br>Madison
+          <br>Glendale
+          <br>Mississauga
+          <br>Edinburgh
+          <br>Peoria
+          <br>North Las Vegas
+          <br>Markham
+          <br>Champaign
+          <br>Stuttgart
+          <br>Surprise
+          <br>Lakewood
+          <br>Goodyear
+        </td>
+        <td>82854<br>34503<br>24113<br>20614<br>12523<br>10871<br>10504<br>9798<br>9448<br>8112<br>6875<br>6380<br>5593<br>5265<br>4406<br>3814<br>2792<br>2624<br>2438<br>2352<br>2029<br>1849<br>1520<br>1465<br>1155</td>
+      </tr>
+  </tbody>
 </table>
 
 ```diff
 -- Code Used --
 + SELECT city
-+      ,SUM(review_count) AS all_reviews_by_city
++      ,SUM(review_count) AS All_reviews_by_city
 + FROM business
 + GROUP BY city
 + ORDER BY all_reviews_by_city DESC
@@ -166,25 +189,18 @@ you are asked a series of questions that will help you profile and understand th
 <p><a>Avon:</a></p>
 
 <p><a>Answer:</a></p>
-<style type="text/css">
-.tg  {border:none;border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
-.tg td{background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;
-  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg th{background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;
-  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
-.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
-</style>
-<table class="tg">
+
+<table >
 <thead>
   <tr>
-    <th class="tg-0pky">Star rating</th>
-    <th class="tg-0pky">count</th>
+    <th >Star rating</th>
+    <th >count</th>
   </tr>
 </thead>
 <tbody>
   <tr>
-    <td class="tg-0pky">1.5<br>2.5<br>3.5<br>4.0<br>4.5<br>5.0</td>
-    <td class="tg-0pky">10<br>6<br>88<br>21<br>31<br>3<br></td>
+    <td >1.5<br>2.5<br>3.5<br>4.0<br>4.5<br>5.0</td>
+    <td >10<br>6<br>88<br>21<br>31<br>3<br></td>
   </tr>
 </tbody>
 </table>
@@ -199,37 +215,197 @@ you are asked a series of questions that will help you profile and understand th
 ```
 
 
+<!-- Parte 7 -->
+<h4 style="color:#0080c0">7. Find the top 3 users based on their total number of reviews</h4>
 
-6. 
+<p><a>Answer:</a></p>
 
-i. Avon
-
-	SQL code used to arrive at answer:
-
-
-
-
-
-
-
-
-
-
-
-
+<table>
+<thead>
+  <tr>
+    <th>name</th>
+    <th>total number of reviews</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Gerald<br>Sara<br>Yuri</td>
+    <td>2000<br>1629<br>1339</td>
+  </tr>
+</tbody>
+</table>
 
 
 ```diff
 -- Code Used --
-+ SELECT city
-+      ,SUM(review_count) AS all_reviews_by_city
-+ FROM business
-+ GROUP BY city
-+ ORDER BY all_reviews_by_city DESC
++ SELECT name
++      ,sum(review_count) AS "total number of reviews"
++ FROM user
++ GROUP BY id
++ ORDER BY sum(review_count) DESC
++ LIMIT 3
 ```
 
+<!-- Parte 8 -->
+<h4 style="color:#0080c0">8. Does posing more reviews correlate with more fans?</h4>
+
+<p><a>Answer:</a></p>  <p>Tables 1 and 2 compare the number of reviews vs the number of fans. It is observed that only the user Gerald has a considerable number of reviews and fans, while the rest of the user varies his position in the top. So it can be concluded that there is NO CORRELATION BETWEEN a greater number of reviews and a greater number of fans.</p>
 
 
+<p>Table 1. Total_ reviews vs Total_fans. Order by number of reviews in form descendent.</p> 
+<table>
+<thead>
+  <tr>
+    <th>name </th>
+    <th>total number of reviews </th>
+    <th>total number of fans  </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Gerald
+      <br>Sara
+      <br>Yuri
+      <br>.Hon
+      <br>William
+    </td>
+    <td>2000
+      <br>1629
+      <br>1339
+      <br>1246
+      <br>1215
+    </td>
+    <td>253
+      <br>50
+      <br>76
+      <br>101
+      <br>126
+    </td>
+  </tr>
+</tbody>
+</table>
+
+<p>Table 2. Total_ reviews vs Total_fans. Order by number of fans in form descendent.</p> 
+<table>
+<thead>
+  <tr>
+    <th>name </th>
+    <th>total number of reviews </th>
+    <th>total number of fans  </th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Amy  
+      <br>Mimi
+      <br>Harald
+      <br>Gerald
+      <br>Christine
+    </td>
+    <td>609 
+      <br>968
+      <br>1153
+      <br>2000
+      <br>930
+    </td>
+    <td>503
+      <br>497
+      <br>311
+      <br>253
+      <br>173
+    </td>
+  </tr>
+</tbody>
+</table>
+
+```diff
+-- Code Used --
++ SELECT name
++      ,sum(review_count) AS "total number of reviews"
++      ,sum(fans) AS "total number of fans"
++ FROM user
++ GROUP BY id
++ ORDER BY sum(review_count) DESC -- table 1
++ ORDER BY sum(fans) DESC -- table 2
+
+```
+
+<!-- Parte 9 -->
+<h4 style="color:#0080c0">8. Does posing more reviews correlate with more fans?</h4>
+
+<p><a>Answer:</a></p> YES, there are 1780 reviews with the word "love" and only 232 reviews with the word "hate".<p></p>
+
+```diff
+-- Code Used --
++ SELECT (SELECT count(id)
++        From review
++        WHERE text LIKE "%love%") AS "love"
++      ,(SELECT count(id)
++        From review
++        WHERE text LIKE "%hate%") AS "hate"
+```
+
+<!-- Parte 10 -->
+<h4 style="color:#0080c0">8. Find the top 10 users with the most fans:</h4>
+
+<p><a>Answer:</a></p> YES, there are 1780 reviews with the word "love" and only 232 reviews with the word "hate".<p></p>
+
+<table>
+<thead>
+  <tr>
+    <th>name </th>
+    <th>number of fans </th>
+    <!-- <th>total number of fans  </th> -->
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td>Amy  
+    <br>Mimi
+    <br>Harald
+    <br>Gerald
+    <br>Christine
+    <br>Lisa
+    <br>Cat
+    <br>William
+    <br>Fran
+    <br>Lissa  
+    </td>
+    <td>503
+    <br>497
+    <br>311
+    <br>253
+    <br>173
+    <br>159
+    <br>133
+    <br>126
+    <br>124
+    <br>120
+    </td>
+    <!-- <td>503
+      <br>497
+      <br>311
+      <br>253
+      <br>173
+    </td> -->
+  </tr>
+</tbody>
+</table>
+
+```diff
+-- Code Used --
++	SELECT name
++      ,SUM(fans) AS "number of fans"
++ FROM user
++ GROUP BY Id
++ ORDER BY fans DESC
++ LIMIT 10
+```
+
+<!-- Parte 11 -->
+<h4 style="color:#0080c0">8. Find the top 10 users with the most fans:</h4>
+
+<p><a>Answer:</a></p> YES, there are 1780 reviews with the word "love" and only 232 reviews with the word "hate".<p></p>
 
 
 # Part 2
