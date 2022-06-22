@@ -128,37 +128,27 @@ you are asked a series of questions that will help you profile and understand th
 
 <p><a>Answer:</a></p>
 
-<table>
-  <thead>
-    <tr><th>City</th><th>All reviews by city</th></tr>
-  </thead>
-  <tbody>
-    <tr><td>Las Vegas</td><td>82854</td></tr>
-    <tr><td>Phoenix</td><td>34503</td></tr>
-    <tr><td>Toronto</td><td>24113</td></tr
-    ><tr><td>Scottsdale</td><td>20614</td></tr>
-    <tr><td>Charlotte</td><td>12523</td></tr>
-    <tr><td>Henderson</td><td>10871</td></tr>
-    <tr><td>Tempe</td><td>10504</td></tr>
-    <tr><td>Pittsburgh</td><td>9798</td></tr>
-    <tr><td>Montréal</td><td>9448</td></tr>
-    <tr><td>Chandler</td><td>8112</td></tr>
-    <tr><td>Mesa</td><td>6875</td></tr>
-    <tr><td>Gilbert</td><td>6380</td></tr>
-    <tr><td>Cleveland</td><td>5593</td></tr>
-    <tr><td>Madison</td><td>5265</td></tr>
-    <tr><td>Glendale</td><td>4406</td></tr>
-    <tr><td>Mississauga</td><td>3814</td></tr>
-    <tr><td>Edinburgh</td><td>2792</td></tr>
-    <tr><td>Peoria</td><td>2624</td></tr>
-    <tr><td>North Las Vegas</td><td>2438</td></tr>
-    <tr><td>Markham</td><td>2352</td></tr>
-    <tr><td>Champaign</td><td>2029</td></tr>
-    <tr><td>Stuttgart</td><td>1849</td></tr>
-    <tr><td>Surprise</td><td>1520</td></tr>
-    <tr><td>Lakewood</td><td>1465</td></tr>
-    <tr><td>Goodyear</td><td>1155</td></tr>
-  </tbody>
+<style type="text/css">
+.tg  {border:none;border-collapse:collapse;border-color:#aabcfe;border-spacing:0;}
+.tg td{background-color:#e8edff;border-color:#aabcfe;border-style:solid;border-width:0px;color:#669;
+  font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg th{background-color:#b9c9fe;border-color:#aabcfe;border-style:solid;border-width:0px;color:#039;
+  font-family:Arial, sans-serif;font-size:14px;font-weight:normal;overflow:hidden;padding:10px 5px;word-break:normal;}
+.tg .tg-0pky{border-color:inherit;text-align:left;vertical-align:top}
+</style>
+<table class="tg">
+<thead>
+  <tr>
+    <th class="tg-0pky">Star rating</th>
+    <th class="tg-0pky">count</th>
+  </tr>
+</thead>
+<tbody>
+  <tr>
+    <td class="tg-0pky">Las Vegas<br>Phoenix<br>Toronto<br>Scottsdale<br>Charlotte<br>Henderson<br>Tempe<br>Pittsburgh<br>Montréal<br>Chandler <br>Mesa<br>Gilgert<br>Cleveland<br>Madison<br>Glendale<br>Mississauga<br>Edinburgh<br>Peoria<br>North Las Vegas<br>Markham<br>Champaign<br>Stuttgart<br>Surprise<br>Lakewood<br>Goodyear<br><br></td>
+    <td class="tg-0pky">82854<br>34503<br>24113<br>20614<br>12523<br>10871<br>10504<br>9798<br>9448<br>8112<br>6875<br>6380<br>5593<br>5265<br>4406<br>3814<br>2792<br>2624<br>2438<br>2352<br>2029<br>1849<br>1520<br>1465<br>1155</td>
+  </tr>
+</tbody>
 </table>
 
 ```diff
