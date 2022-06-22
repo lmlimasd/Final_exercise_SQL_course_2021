@@ -22,11 +22,11 @@ you are asked a series of questions that will help you profile and understand th
 <p><a>Answer:</a> The dataset have 11 tables with 10.000 rows every each.</p>
 
 <p style="color:#0080c0">SQL code used to arrive at answer:</p>
-<xmp>
-SELECT COUNT(*) 
-FROM "name of the table"
-</xmp>
 
+```diff
++ SELECT COUNT(*) 
++ FROM "name of the table"
+```
 
 # Part 2
 
