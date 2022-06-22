@@ -11,6 +11,12 @@ The entity relationship (ER) diagram below, should help familiarize you with the
 <p><img src="ER_diagram.png"
      alt="Markdown Monster icon"   style= "max-width: 80%; height auto;" />
 </p>
+Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.
+<p>
+
+</p>
+
+
 
 <h2 style="color:#0080c0">First Part</h2>
 
@@ -26,6 +32,66 @@ you are asked a series of questions that will help you profile and understand th
 ```diff
 + SELECT COUNT(*) 
 + FROM "name of the table"
+```
+
+<h4 style="color:#0080c0">2. Find the total distinct records by either the foreign key or primary key for each table. If two foreign keys are listed in the table, please specify which foreign key:</h4>
+
+<p><a>Answer:</a>
+
+
+<ul style= "list-style-type: upper-roman;">
+<li>Business = (PK), id= 10000 </li>
+<li>Hours = (FK), business_id= 1562. </li>
+<li>Category = (FK), business_id= 2643.</li>
+<li>Attribute = (FK), business_id= 1115.</li>
+<li>Review = (PK), id=10000, (FK) business_id= 8090, (FK)User_id= 9581. </li>
+<li>Checkin = (FK), business_id= 493. </li>
+<li>Photo = (PK), id=10000, (FK)business_id= 6493. </li>
+<li>Tip = (FK), User_id= 537, (FK)business_id= 3979. </li>
+<li>User = (PK),id=10000.</li>
+<li> Friend = (FK), User_id= 11, (FK)</li>
+<li>Elite_years = (FK), User_id= 2780.</li>
+</ul>
+
+
+<p style="color:#0080c0">SQL code used to arrive at answer:</p>
+
+```diff
++ SELECT count(DISTINCT /*Primary or Foreign Key*/)
++ FROM -- Table
+```
+
+<h4 style="color:#0080c0">3. Are there any columns with null values in the Users table? Indicate "yes," or "no."</h4>
+
+<p><a>Answer: NO</a>
+
+<p style="color:#0080c0">SQL code used to arrive at answer:</p>
+
+
+```diff
+-- Code Used --
++ SELECT COUNT(*)
++ FROM User 
++ WHERE id IS NULL 
++      OR name IS NULL
++      OR review_count IS NULL
++      OR yelping_since IS NULL
++      OR useful IS NULL
++      OR funny IS NULL
++      OR cool IS NULL
++      OR fans IS NULL
++      OR average_stars IS NULL
++      OR compliment_hot IS NULL
++      OR compliment_more IS NULL
++      OR compliment_profile IS NULL
++      OR compliment_cute IS NULL
++      OR compliment_list IS NULL
++      OR compliment_note IS NULL
++      OR compliment_plain IS NULL
++      OR compliment_cool IS NULL
++      OR compliment_funny IS NULL
++      OR compliment_writer IS NULL
++      OR compliment_photos IS NUL
 ```
 
 # Part 2
