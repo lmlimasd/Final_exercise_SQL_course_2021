@@ -14,8 +14,8 @@
 
 The entity relationship (ER) diagram below, should help familiarize you with the design of the Yelp Dataset provided for this peer review activity.
 
-<p><img src="ER_diagram.png"
-     alt="Markdown Monster icon"   style= "max-width: 80%; height auto;" />
+<p align="center">
+     <img src="ER_diagram.png" alt="Markdown Monster icon" width="700"/>
 </p>
 Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.
 <p>
