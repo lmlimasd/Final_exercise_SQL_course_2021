@@ -406,8 +406,8 @@ you are asked a series of questions that will help you profile and understand th
 <h4 style="color:#0080c0">8. Find the top 10 users with the most fans:</h4>
 
 <p><a>Answer:</a></p> YES, there are 1780 reviews with the word "love" and only 232 reviews with the word "hate".<p></p>
-
+<!-- 
 
 # Part 2
 
-you are asked to come up with your own inferences and analysis of the data for a particular question you want to answer. You will be required to prepare the dataset for the analysis you choose to do. As with the first part, you will be graded, in part, on how easy your code is to read, so use proper formatting and comments to illustrate your intent as required.
+you are asked to come up with your own inferences and analysis of the data for a particular question you want to answer. You will be required to prepare the dataset for the analysis you choose to do. As with the first part, you will be graded, in part, on how easy your code is to read, so use proper formatting and comments to illustrate your intent as required. -->
