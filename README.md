@@ -24,7 +24,7 @@ Note: Primary Keys are denoted in the ER-Diagram with a yellow key icon.
 
 
 
-<h2 style="color:#0080c0">First Part</h2>
+<!-- <h2 style="color:#0080c0">First Part</h2> -->
 
 you are asked a series of questions that will help you profile and understand the data just like a data scientist would. For this first part of the assignment, you will be assessed both on the correctness of your findings, as well as the code you used to arrive at your answer. You will be graded on how easy your code is to read, so remember to use proper formatting and comments where necessary.
 
